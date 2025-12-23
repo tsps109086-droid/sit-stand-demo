@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">plese sit down  <title>titlee
+  <meta charset="UTF-8">
+  <title>plese sit down</title>
   <style>
     #stage {
       width: 300px;
@@ -25,22 +26,22 @@
 </head>
 <body>
 
-<div id="stage"></div>
-<button id="button1">push me</button>
+  <div id="stage"></div>
+  <button id="button1">Push Me</button>
 
-<script>
-  const stage = document.getElementById('stage');
-  const button = document.getElementById('button1');
+  <script>
+    const stage = document.getElementById('stage');
+    const button = document.getElementById('button1');
 
-  window.onload = () => {
-    stage.style.backgroundImage = "url('stand.png')";
-  };
+    window.onload = () => {
+      stage.style.backgroundImage = "url('stand.png')";
+    };
 
-  button.onclick = () => {
-    button.style.display = 'none';
-    stage.style.backgroundImage = "url('sit.png')";
-  };
-</script>
+    button.onclick = () => {
+      button.style.display = 'none';
+      stage.style.backgroundImage = "url('sit.png')";
+    };
+  </script>
 
 </body>
 </html>
